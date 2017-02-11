@@ -1,0 +1,192 @@
+/********************/
+.sectF,.sectO{ background: url(http://kxe-www-168.oss-cn-hangzhou.aliyuncs.com/activity/anniversary/billBG.png) no-repeat center top;}
+
+.bgCl{background-color: #252324;}
+
+.section{ 
+	margin: 0 auto; 
+	color:#fff; 
+	text-align: center;
+	max-width: 640px;
+	width: 100%; 
+	background-size: 100%;
+}
+.bTxt{
+    position: relative;
+	font-family: 'fontNameRegular';
+	font-size: 3.4em;
+	line-height: 1.7em;
+	text-align: left;
+	width: 90%;
+	margin: 0 auto;
+	padding-top: 1.8em;
+}
+.bTxt span{
+	font-size: 2.2em;
+	font-family: 'fontNumRegular';
+	vertical-align: middle;
+}
+.bImg{
+	position: absolute;
+	text-align:center;
+	width: 100%;
+}
+.bImg > img { width: 100%;}
+.bImgS{
+	position: absolute;
+	bottom: 0em;
+	text-align:center;
+	width: 100%;
+}
+.bImgS > img { width: 80%;}
+.bImgAnimate{
+	left: 39%;
+    position: absolute;
+    top: -17%;
+    width: 25%;
+}
+.bImgAnimate > img{ width: 100%;}
+.scalbRedMan{ 
+	animation: pound .5s;
+ }
+ @keyframes pound {
+    from { transform: scale(0); }
+    50% { transform: scale(.5); }
+    to { transform: scale(1); }
+}
+.aHi{
+	left: 80%;
+    position: absolute;
+    width: 100%;
+}
+.aHi img{ width: 100%;}
+
+.bLove{
+	position: absolute;
+    right: 25%;
+    top: -25%;
+    width: 26%;
+}
+.bLove img,.bBudlet img{width:100%;}
+.bBudlet{
+	left: 32%;
+    position: absolute;
+    top: 29%;
+    width: 10%;
+}
+.bMusic{
+	bottom: 30%;
+    position: absolute;
+    right: 20%;
+    width: 13.28%;
+}
+.bMusic img,.bMusicS img,.bSuperM img,.bStar img,.bHan img,.bShare img{width:100%;}
+.bMusicS{
+	left: 23%;
+    position: absolute;
+    top: -10%;
+    width: 46.8%;
+}
+.bSuperM{
+	left: 38%;
+    position: absolute;
+    top: -30%;
+    width: 20%;
+}
+.bStar{
+	position: absolute;
+    right: 20%;
+    top: -30%;
+    width: 29.6%;
+}
+.bHan{
+	left: 15%;
+    position: absolute;
+    top: -8%;
+    width: 16.5%;
+}
+.bShare{
+	bottom: -47%;
+    position: absolute;
+    right: 27%;
+    width: 46%;
+}
+.noInvest{}
+.noInvest img{ width: 100%;}
+.shareImg{ 
+    margin-top: 13em;
+    padding-bottom: 10em;
+}
+/*===========================*/
+#pageFTxt,#pageSTxt,#pageTTxt,#pageFoTxt,#pageFiTxt{ 
+    opacity: 0;
+    top: -1em;
+}
+#bgF,#bgS,#bgT{ 
+    opacity: 0;
+    bottom: 5em;
+}
+#bgFi{
+    opacity: 0;
+    bottom: 15em;
+}
+#aHi{
+    opacity: 0;
+    top: -50%;
+}
+#birthYear,#birthMonth,#birthDayTime,#birthdayRank{
+    position: relative;
+    opacity: 0;
+    left: -.5em;
+}
+#firstInvestY,#firstInvestM,#firstInvestD,#firstAmount{
+    position: relative;
+    opacity: 0;
+    left: -.5em;
+}
+#investTerm,#investProfits,#profitsRankPercent{
+    position: relative;
+    opacity: 0;
+    left: -.5em;
+}
+#peakInvest,#withdrawTimes,#depositeTimes{
+    position: relative;
+    opacity: 0;
+    left: -.5em;
+}
+#histSum,#xjAmount{
+    position: relative;
+    opacity: 0;
+    left: -.5em;
+}
+#billShare{ cursor: pointer;}
+
+.bTxtTest{
+    position: relative;
+    font-family: 'fontNumTest';
+    font-size: 3.4em;
+    line-height: 1.7em;
+    text-align: left;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 1.8em;
+}
+
+
+@font-face {
+    font-family: 'fontNameRegular';
+    src: url('../font/新蒂下午茶基本版.eot');
+    src: local('新蒂下午茶基本版 Regular'), 
+              local('新蒂下午茶基本版'), 
+              url('../font/新蒂下午茶基本版.woff') format('woff'), 
+              url('../font/新蒂下午茶基本版.ttf') format('truetype'), 
+              url('../font/新蒂下午茶基本版.svg#fontName') format('svg');
+}
+@font-face {
+    font-family: 'fontNumRegular';
+    src: url('../font/Impact.eot');
+    src: local('Impact Regular'), 
+              local('Impact'), 
+              url('../font/Impact.ttf') format('truetype'), 
+              url('../font/Impact.svg#fontName') format('svg');
+}

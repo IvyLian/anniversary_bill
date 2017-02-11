@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+<meta content="telephone=no,email=no" name="format-detection" />
+<title>我的小金理财周年账单</title>
+<link rel="stylesheet" href="css/public.css">
+<link rel="stylesheet" href="css/jquery.fullPage.css">
+<link rel="stylesheet" href="css/bill.css">
+<link rel="stylesheet" href="css/media.css">
+
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/jquery-ui-1.10.3.min.js"></script>
+<script src="js/jquery.fullPage.min.js"></script>
+<script src="js/bill.js"></script>
+
+</head>
+<body class="bgCl">
+<!--首屏-->
+<section class="section section1 sectF">
+    <div class="bTxt" id="pageFTxt">
+        <p><span id="birthYear">2014</span>年<span id="birthMonth">08</span>月<span id="birthDayTime">04</span>日</p>
+        <p>加入小金理财</p>
+        <p>成为小金第<span id="birthdayRank">233</span>个用户</p>
+    </div>
+    <div id="bgF" class="bImg mt5">
+        <img src="http://kxe-www-168.oss-cn-hangzhou.aliyuncs.com/activity/anniversary/bWhMan.png" alt="白色小人">
+        <div class="bImgAnimate">
+            <img id='bRedMan' src="http://kxe-www-168.oss-cn-hangzhou.aliyuncs.com/activity/anniversary/shakeMan.gif">
+            <p class="aHi" id="aHi"><img src="http://kxe-www-168.oss-cn-hangzhou.aliyuncs.com/activity/anniversary/hi.png"></p>
+        </div>
+    </div>
+</section>
+<!--第二屏-->
+<section class="section section2 sectO">
+    <div class="bTxt" id="pageSTxt">
+        <p><span id="firstInvestY">2014</span>年<span id="firstInvestM">08</span>月<span id="firstInvestD">04</span>日</p>
+        <p>投资了<span id="firstAmount">1000</span>元</p>
+        <p>这是你的第一份信任</p>
+    </div>
+    <div id="bgS" class="bImg mt5">
+        <img src="http://kxe-www-168.oss-cn-hangzhou.aliyuncs.com/activity/anniversary/bSecond.png" alt="背景">
+        <div class="bLove">
+            <img src="http://kxe-www-168.oss-cn-hangzhou.aliyuncs.com/activity/anniversary/sLove.gif">
+        </div>
+        <div class="bBudlet">
+            <img id="bLvya" src="http://kxe-www-168.oss-cn-hangzhou.aliyuncs.com/activity/anniversary/bLvya.png">
+        </div>
+    </div>
+</section>
+<!--第三屏-->
+<section class="section section3 sectO">
+    <div class="bTxt" id="pageTTxt">
+        <p><span id="investTerm">21</span>天里</p>
+        <p>赚取了<span id="investProfits">123</span>元</p>
+        <p>收益超过<span id="profitsRankPercent">60%</span>的用户</p>
+        <p>每一分都物尽其用</p>
+    </div>
+    <div id="bgT" class="bImgS mt5">
+        <img src="http://kxe-www-168.oss-cn-hangzhou.aliyuncs.com/activity/anniversary/3bgMoney.png" alt="背景">
+        <div class="bMusic">
+            <img src="http://kxe-www-168.oss-cn-hangzhou.aliyuncs.com/activity/anniversary/bMusic.gif">
+        </div>
+        <div class="bMusicS" id="bMusicS">
+            <img  src='http://kxe-www-168.oss-cn-hangzhou.aliyuncs.com/activity/anniversary/bMusic2.gif'>
+        </div>
+    </div>
+</section>
+<!--第四屏-->
+<section class="section section4 sectO">
+    <div class="bTxt" id="pageFoTxt">
+        <p>在投金额<span id="peakInvest">2132</span>元</p>
+        <p>是你的历史高峰</p>
+        <p>总计提现<span id="withdrawTimes">9</span>次</p>
+        <p>充值<span id="depositeTimes">32</span>次</p>
+        <p>原来理财还可以这么玩</p>
+    </div>
+    <div id="bgF" class="bImg mt5">
+        <img src="http://kxe-www-168.oss-cn-hangzhou.aliyuncs.com/activity/anniversary/bData.png" alt="背景">
+        <div class="bSuperM">
+            <img src="http://kxe-www-168.oss-cn-hangzhou.aliyuncs.com/activity/anniversary/fsuperMan.gif">
+        </div>
+    </div>
+</section>
+<!--第五屏-->
+<section class="section section5 sectO">
+    <div class="bTxt"  id="pageFiTxt">
+        <p>你的累计投资额已达</p>
+        <p><span id="histSum">718,214</span>元</p>
+        <p>成就了小金<span id="xjAmount">100</span>亿元总成交额</p>
+        <p>未来我们一起成长</p>
+        <p>小金理财一周年</p>
+    </div>
+    <div id="bgFi" class="bImg">
+        <img src="http://kxe-www-168.oss-cn-hangzhou.aliyuncs.com/activity/anniversary/bCar.png" alt="背景">
+        <div class="bStar">
+            <img src="http://kxe-www-168.oss-cn-hangzhou.aliyuncs.com/activity/anniversary/bStar.gif">
+        </div>
+        <div class="bHan">
+            <img src="http://kxe-www-168.oss-cn-hangzhou.aliyuncs.com/activity/anniversary/bHan.gif">
+        </div>
+        <div class="bShare" id="billShare">
+            <span><img src="http://kxe-www-168.oss-cn-hangzhou.aliyuncs.com/activity/anniversary/bButton.gif"></span>
+        </div>
+    </div>
+</section>
+
+<script type="text/javascript">
+$(function(){
+
+    $("#billShare").unbind("click").click(function(){
+        
+        var url=decodeURIComponent(document.URL);
+        var u = url.split("?");
+
+        //var shareURL = "http://hot.xiaojinlicai.com/activity/anniversary/billShareData.html?ab_invest_term="+investTerm+"&ab_first_invest_amount="+firstAmount+"&ab_invest_profits="+investProfits+"&ab_peak_invest="+peakInvest+"$ab_withdraw_times="+withdrawTimes+"&ab_deposite_times="+depositeTimes+"&ab_invest_hist_sum="+histSum+"&ab_first_invest_date="+investDate+"&ab_birthday="+birthday+"&ab_birthday_rank="+ab_invest_profits_rank_percent;
+        var shareURL = "http://hot.xiaojinlicai.com/activity/anniversary/billShareData.html?"+u[1];
+        //alert(shareURL);
+        var title = "我在小金累计投资"+histSum +"元，成就小金100亿元总成交额";
+        var content = "小金一岁了啊！！！";
+        var device = navigator.userAgent.toLowerCase();
+        var isIphone = (device.indexOf("iphone") > -1) || (device.indexOf("ipad") > -1);// iphone 设备
+        if(window.bridge){
+            window.bridge.shareUrl("WechatMoments",shareURL,title,content);
+        }
+        if(isIphone){
+            window.location = "shareSDK@@"+"Wechat"+"@@"+shareURL+"@@"+title+"@@"+content;
+        }
+    });
+
+});
+</script>
+
+</body>
+</html>
+
+
+
+

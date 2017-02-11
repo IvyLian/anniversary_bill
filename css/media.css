@@ -1,0 +1,129 @@
+/* 兼容*/
+@media (device-height:480px) and (-webkit-min-device-pixel-ratio:2){/* 兼容iphone4/4s */
+  .bTxt{font-size: 3em; line-height: 1.3em;}
+  .bImgS > img { width: 60%;}
+  .bTxt span{ font-size:1.8em;}
+  .bImg{ width: 85%; margin-left: 10%;}
+
+  .helpSecond { font-size: 2.3em;}
+  .helpSecond p:first-child { padding-top: 1.9em;}
+}
+
+@media screen and (min-width: 560px) and (max-width: 639px) {
+  body { font-size:7.6px;}
+  /* 活动三加息卡*/
+  .jxProg { width: 360px;}
+  .brief li i {width:4%;}
+  .brief li i img{ width: 7px;}
+  .brief li p { width: 96%;}
+  .lightProgress{ height: 1.8em;}
+
+  /* shake 红包摇一摇*/
+  .sBottBg{background-size: 100%;}
+  .sExplain p{width: 98%;}
+  .sExplain span{ width: 2%;}
+  .sLeftTime { font-size: 6em;}
+
+  .reExplain span{width: 5%; padding-top: .19em;}
+  .reExplain span img{ width: 8px;}
+  .sClose img{ width:30px; }
+}
+
+@media screen and (min-width: 420px) and (max-width: 559px) {
+  body { font-size:7px;}
+  /* 活动三加息卡*/
+  .jxProg { width: 300px;}
+  .brief li i {width:4%;}
+  .brief li i img{ width: 6px;}
+  .brief li p { width: 96%;}
+  .lightProgress{ height: 1.4em;}
+
+  /* shake 红包摇一摇*/
+  .sExplain p{width: 97%;}
+  .sExplain span{ width: 3%;}
+  .sLeftTime{ font-size: 5em;}
+
+  .reExplain span{width: 4%; padding-top: .19em;}
+  .reExplain span img{ width: 7px;}
+  .sClose img{ width:26px; }
+}
+
+@media screen and (min-width: 320px) and (max-width: 419px) {
+  body { font-size:6.2px;}
+  /* 活动三加息卡*/
+  .jxProg { width: 220px;}
+  .jxDay{ padding-left: 35%; padding-right: 35%;}
+  .brief li i {width:5%;}
+  .brief li i img{ width: 6px;}
+  .brief li p { width: 95%;}
+  .jxAnagel i img{
+    width: 6px;
+  }
+  .lightProgress{ height: 1.2em;}
+
+  /* shake 红包摇一摇*/
+  .sLeftTime{font-size: 4em;}
+
+  .reExplain span{width: 5%; padding-top: .19em;}
+  .reExplain span img{ width: 6px;}
+  .sClose img{ width:22px; }
+}
+
+
+@media screen and (max-width: 319px) {
+  body { font-size:5.4px;}
+  /* 活动三加息卡*/
+  .jxProg { width: 80%;}
+  .brief li i {width:4%;}
+  .brief li i img{ width: 4px;}
+  .brief li p { width: 96%;}
+  .lightProgress{ height: 50%;}
+
+  /* shake 红包摇一摇*/
+  .sLeftTime{font-size: 3em;}
+  .sLeftTime p{ margin-bottom: .5em;}
+
+  .reExplain span{width: 5%; padding-top: .19em;}
+  .reExplain span img{ width: 7px;}
+  .sClose img{ width:60%; }
+}
+
+@media screen and (min-width: 0px) and (max-width: 640px) {
+  .wrapBg{margin-left:-50%;}
+  .W430 img { width:71%;}
+
+  /* shake 红包摇一摇*/
+  .sNum,.shbtmBg{ margin-left: -50%;}
+  .shakeflDiv{ margin-left: -40.625% }
+  .sTopBgRecord,.sBottBg{ background-size: 100%;}
+  .billLoad{ margin-left: -50%; }
+  .dmWrap{ margin-left: -50%;}
+}
+
+@media (device-height:568px) and (-webkit-min-device-pixel-ratio:2){/* 兼容iphone5 or iPod Touch 5th generation*/
+  .bTxt{font-size: 3em; line-height: 2.2em;}
+  .lightProgress{ height: 1.4em;}
+
+  .helpSecond { font-size: 2.3em;}
+  .helpSecond p:first-child { padding-top: 1.9em;}
+  
+} 
+@media (device-width:375px) and (-webkit-min-device-pixel-ratio:2){/* 兼容iphone 6 */
+  body { font-size:7px;}
+  .lightProgress{ height: 1.2em;}
+  
+  .helpSecond p:first-child { padding-top: 2.1em;}
+  .helpSecond p {padding-top: 5.6em;}
+
+}
+@media (device-width:414px) and (-webkit-min-device-pixel-ratio:3.0){/* 兼容iphone6 plus */
+  body { font-size:8px;}
+  .lightProgress{ height: 1.1em;}
+  .jxAnagel i{left: 45%;}
+
+  .helpSecond { font-size: 2.3em;}
+  .helpSecond p:first-child { padding-top: 1.9em;}
+  .helpSecond p {padding-top: 6.3em;}
+  .jxAnagel i {bottom: -0.5em;}
+}
+
